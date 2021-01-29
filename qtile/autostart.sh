@@ -1,0 +1,4 @@
+#!/bin/bash
+feh --bg-scale /usr/share/wallpapers/bluespace.png
+picom &
+redshift &

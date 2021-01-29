@@ -1,0 +1,31 @@
+{
+    "suggest.noselect": false,
+    "rust-analyzer.diagnostics.disabled": [
+        "missing-unsafe",
+        "unresolved-proc-macro"
+    ],
+    //"rust-analyzer.cargo.loadOutDirsFromCheck": true,
+    //"rust-analyzer.procMacro.enable" : true,
+
+    "rust-analyzer.updates.channel": "nightly",
+    "python.pythonPath": "/bin/python",
+    "python.linting.pylintPath": "/bin/pylint",
+    "python.linting.pylintArgs": ["--rcfile", "~/.pylintrc"],
+
+    "java.configuration.runtimes": [
+      {
+        "name": "JavaSE-1.8",
+        "path": "/usr/lib/jvm/java-8-openjdk"
+      },
+      {
+        "name": "JavaSE-11",
+        "path": "/usr/lib/jvm/java-11-openjdk"
+      },
+      {
+        "name": "JavaSE-14",
+        "path": "/usr/lib/jvm/java-14-openjdk",
+        "default": true
+      }
+    ],
+    "java.jdt.ls.home" : "/home/nitsuga/Documents/jdtls/"
+}
