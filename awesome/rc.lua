@@ -115,7 +115,7 @@ user = {
     -- as described in the README instructions
     -- Leave it empty in order to unlock with just the Enter key.
     -- lock_screen_custom_password = "",
-    lock_screen_custom_password = "li996748",
+    lock_screen_custom_password = "",
 
     -- >> Battery <<
     -- You will receive notifications when your battery reaches these
@@ -127,15 +127,15 @@ user = {
     -- Get your key and find your city id at
     -- https://openweathermap.org/
     -- (You will need to make an account!)
-    openweathermap_key = "c84668813758fff3e7b6d9fd970cb643",
-    openweathermap_city_id = "4726206",
+    openweathermap_key = "",
+    openweathermap_city_id = "",
     -- > Use "metric" for Celcius, "imperial" for Fahrenheit
-    weather_units = "metric",
+    weather_units = "",
 
     -- >> Coronavirus <<
     -- Country to check for corona statistics
     -- Uses the https://corona-stats.online API
-    coronavirus_country = "USA",
+    coronavirus_country = "",
 }
 -- ===================================================================
 
